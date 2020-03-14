@@ -20,8 +20,9 @@ CREATE TABLE `goods` (
 	`goods_stock` int(11) DEFAULT '0' COMMENT '商品库存，-1表示没有限制',
 	PRIMARY KEY (`id`)
 )ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
-INSERT INTO `goods` VALUES(1,'iPhone X','Apple iPhone X (A1865) 64GB 深空灰色 移动联通电信4G手机','/img/iphonex.png','Apple iPhone X (A1865) 64GB 深空灰色 移动联通电信4G手机','8388.00','8888')
-INSERT INTO `goods` VALUES(2,'MacBook Pro','Apple MacBook Pro 15.4英寸笔记本电脑 银色','/img/macbookpro.png','i7处理器，大容量固态硬盘，外设接口丰富，配备绚丽的retina显示屏，强大而专业！选购AppleCare Protection Plan，获得长达3年来自Apple的额外硬件服务选项。购买勾选：保障服务、原厂保3年。','13599.00','6666')
+INSERT INTO `goods` VALUES(1,'iPhone X','Apple iPhone X (A1865) 64GB 深空灰色 移动联通电信4G手机','/img/iphonex.png','Apple iPhone X (A1865) 64GB 深空灰色 移动联通电信4G手机','8388.00','8888');
+INSERT INTO `goods` VALUES(2,'MacBook Pro','Apple MacBook Pro 15.4英寸笔记本电脑 银色','/img/macbookpro.png','i7处理器，大容量固态硬盘，外设接口丰富，配备绚丽的retina显示屏，强大而专业！选购AppleCare Protection Plan，获得长达3年来自Apple的额外硬件服务选项。购买勾选：保障服务、原厂保3年。','13599.00','6666');
+
 
 CREATE TABLE `seckill_goods` (
 	`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '秒杀的商品',
@@ -57,7 +58,9 @@ CREATE TABLE `seckill_order` (
 	PRIMARY KEY (`id`)
 )ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
--- sql
+
+
+-- ### 2020年03月14日更新：sql-- 原始 -- 以下部分可以不管
 
 /*
 SQLyog Ultimate v12.08 (64 bit)
