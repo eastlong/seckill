@@ -5,8 +5,15 @@
                                             /____/\___/\___/_/|_/_/_/_/
 <br/>
 
-# 开发环境配置
+# 开发环境配置与启动
+## 导入mysql语句（resource）
+## 配置文件配置
 1. 配置application.properties
+    * mysql配置
+    * redsi配置
+    * rabbitmq配置可以先不管
+# 项目启动
+1. 启动mysql
 2. 启动redis
 ```sh
 ## step1：启动服务器（服务端）
@@ -35,7 +42,7 @@ OK
     data: true
 }
 ```
-##### 再进行登录。
+##### 再进行登录。__``````__
 <hr>
 <br>
 
